@@ -1,0 +1,265 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul .lihat{
+    float: right;
+    width:47%;
+}
+ul .tambah{
+    float: left;
+    width:47%;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+
+
+.bdindex{
+background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.bdlihat{
+    padding-top: 60px;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+body{
+	margin: auto;
+	padding: auto;
+	font-family: "MS Reference Sans Serif Regular";
+    color:#333333;
+}
+
+body form table{
+	margin-left: 50px;
+}
+input{
+    border:2px solid grey;
+}
+body form input{
+	background-color: white;
+	padding: 5px;
+	margin: 5px;
+	width: 250px;
+	border-radius: 5px 5px;
+}
+
+#lihat h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.tambah .tambahi {
+    margin-left: 400px;
+    border-radius: 5px;
+    margin-top: 15px;
+    position: relative;
+    background-image: linear-gradient(to right, #f83600 0%, #f99a23 100%);
+    color:#fff;
+    border: 3px solid white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+body form .tambahi:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+   cursor: pointer;
+}
+
+body form .tambahi:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+body form .tambahi:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.t-lihat{
+    margin-left: 80px;
+}
+.t-lihat td{
+	padding: 5px;
+	text-align-last: center;
+}
+
+.t-lihat tr{
+	margin: 50px;
+}
+
+#lihat .t-lihat th{
+	padding-left: 20px;
+	padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	background-color: #ffd21d;  
+}
+
+form .tambah {
+	width:100%;
+    padding-top:0;
+    margin-top:0;
+}
+
+
+table{
+    font-size: 14px;
+}
+
+#lihat {
+    height:auto;
+    padding-top:20px;
+    padding-bottom: 40px;
+}
+
+#lihat h1{
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+}
+#lihat table{
+    font-size: 14px;
+    background-color:#66a6ff;
+}
+#lihat table td{
+background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+}
+
+#lihat table a{
+    width:100px;
+    text-decoration: none;
+    color:white;
+}
+
+#lihat table .edit{
+    width:50px;
+    height:15px;
+    float: left;
+    padding:5px;
+    margin-right:5px; 
+    text-align: center;
+    background-color: #009c35;
+    border: 2px solid white;
+}
+
+#lihat table .delete{
+    width:50px;
+    text-align: center;
+    height:15px;
+    float: right;
+    padding:5px;
+    margin-left:5px;
+    background-color: #f83600;
+    border: 2px solid white;
+}
+#lihat table .delete:hover{
+    background-color: #bd2900;
+}
+#lihat table .edit:hover{
+    background-color: #006522;
+    
+}
+#edit {
+
+    padding-top:20px;
+
+}
+#edit h1{
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+}
+#edit table .updatte {
+    margin-left: 165px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, #f83600 0%, #f99a23 100%);
+    color:#fff;
+    border: 3px solid white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#edit table .updatte:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+   cursor: pointer;
+}
+
+#edit table .updatte:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+#edit table .updatte:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
